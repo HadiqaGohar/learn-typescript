@@ -1,6 +1,6 @@
 # learn-typescript
 
-# ..................................................................Variable declaration.....................................................................
+# >>>> Variable declaration
 
 Variable declaration in TypeScript involves defining variables using the let, const, and var keywords.
 
@@ -16,7 +16,7 @@ Used to declare function-scoped or globally-scoped variables. It is generally ad
 # Type Annotations
 In TypeScript, you can optionally add type annotations to your variables. This helps in catching errors at compile time.
 
-# ....................................................................Typescript type.......................................................................
+# >>>> Typescript type
 
 In TypeScript, types are used to define the structure and type of variables, functions, and objects. Types help catch errors at compile time and improve code readability and maintainability. Here's a rundown of the various types you can use in TypeScript:
 
@@ -31,7 +31,7 @@ void: Represents the absence of any type, usually used for functions that do not
 null and undefined: Represent the absence of a value.
 never: Represents the type of values that never occur. It's used for functions that always throw an error or have an infinite loop.
 
-# ........................................................................loop in typescript.....................................................................
+# >>>> loop in typescript
 
 Loops in TypeScript work similarly to those in JavaScript, allowing you to iterate over arrays, collections, or execute a block of code multiple times. Here's an overview of the different types of loops available:
 
@@ -59,8 +59,8 @@ continue: Skips the current iteration and moves to the next one.
 # Summary
 Using loops effectively in TypeScript can help you manage repetitive tasks and iterate over data structures efficiently. Depending on your needs, you can choose the appropriate loop type (for, for...of, for...in, while, or do...while) and use control statements (break, continue) to manage the flow of your loops.
 
-# .........................................................................array..................................................................................
-.
+# >>>> array
+
 In TypeScript, arrays are used to store multiple values of the same type in a single variable. You can define and work with arrays in various ways. Here's a detailed overview of how to declare, initialize, and manipulate arrays in TypeScript:
 
 # Declaring Arrays
@@ -85,7 +85,7 @@ reduce: Applies a function against an accumulator and each element in the array 
 # Summary
 Arrays in TypeScript are powerful and versatile, providing a range of methods to perform common operations such as adding, removing, and iterating over elements. By utilizing TypeScript's type system, you can ensure that the elements within an array are of the expected type, leading to more robust and maintainable code.
 
-# ...................................................................concatination............................................................................
+# >>>> concatination
 
 Concatenation in TypeScript refers to combining multiple strings or arrays into a single string or array. Here's how you can achieve concatenation with both strings and arrays in TypeScript:
 
